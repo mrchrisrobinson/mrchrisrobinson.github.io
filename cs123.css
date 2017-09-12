@@ -1,0 +1,100 @@
+/*
+Name: Chris Robinson
+Class: CS 132
+Homerwork: 1
+Last Modified: 9/4/2017
+*/
+header {
+    background-color:  #ffa407; /* orange */
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 70px;
+    
+    text-align: center;
+}
+    h1  { 
+    text-align: center; 
+    }
+.topNav {
+    overflow: hidden;
+    background-color: #333; /* dark grey */
+    position: fixed; /* Set the navbar to fixed position */
+    top: 70px;
+    left: 140px;
+    width: 100%; /* Full width */
+}
+/* Links inside the top navbar */
+.topNav a {
+    float: left;
+    display: block;
+    color: #f2f2f2; /* Dark Grey */
+    text-align: center;
+    padding-left: 70px;
+    text-decoration: none;
+}
+.leftNav {  
+    overflow: hidden;
+    background-color: #ffa407; /*orange*/
+    position: fixed; /* Set the navbar to fixed position */
+    top: 70px;
+    bottom: 1%;
+    float: left;
+    width: 140px;
+}
+/* Links on the left navbar */
+.leftNav a {
+    float: left;
+    display: block;
+    color: #333; /*dark grey*/
+    text-align: left;
+    padding: 0px 0px 0px 10px;
+    text-decoration: none;
+}
+body {
+    background-color: #DCDCDC; /*grey*/
+    position: relative;
+}
+article {
+    position: relative;
+    overflow: hidden;
+    padding: 96px 10px 10px 160px;
+    width: 600px;
+}
+    img {
+    overflow: hidden;
+    float: right;
+    margin: 0px 10px 0px 0px;
+    }
+    
+p1 {
+    overflow: hidden;
+    position: relative;
+}
+h1 {
+    position: relative;
+}
+p2 {
+    position: relative;
+}
+
+footer { 
+    clear: both; 
+    height:40px; 
+    background-color: #ffa407; /*orange*/
+    overflow: hidden;
+    width: 100%; /* Full width */
+    float: left;
+    padding: 0px 0px 0px 70px;
+}
+
+footer a {
+    float: left;
+    display: block;
+    color: #f2f2f2; /* Dark Grey */
+    text-align: center;
+    padding: 0px 0px 0px 70px;
+    display: inline-block;
+    text-decoration: none;
+}
